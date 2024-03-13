@@ -1,0 +1,11 @@
+---
+# defaults file for aws_create
+hostname: "Ubuntu"
+aws_access_key: "AKIAVWOJMI5XXXXXXXX"
+aws_secret_key: "F9PaprqnPUn/NP8lzQXXXXXXXXXXXXXXXXXX"
+instance_type: "t2.micro"
+keypair: "priyajdm"
+image: "ami-2d39803a"
+security_group: "default"
+region: "us-west-2"
+

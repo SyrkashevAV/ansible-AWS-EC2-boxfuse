@@ -1,4 +1,6 @@
 ---
+- name: Playbook for the AWS instance role
+  import_playbook: roles-aws-instance.yml
 - name: Playbook for the Maven role
   import_playbook: roles-maven.yml
 - name: Playbook for the Tomcat role
