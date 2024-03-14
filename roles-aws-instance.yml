@@ -1,6 +1,6 @@
 ---
-- name: Maven configuration
-  hosts: staging
+- name: Create EC2 instances
+  hosts: localhost
   become: yes
 
   roles:
